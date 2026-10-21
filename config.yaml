@@ -1,0 +1,44 @@
+# ───────────────────────────────────────────────
+#  Huurscanner: jouw zoekcriteria
+#  Pas hier aan wat je zoekt. Wijzigingen gelden vanaf de volgende scan.
+# ───────────────────────────────────────────────
+
+criteria:
+  plaats: utrecht            # kleine letters, zoals in de URL van Pararius/Funda
+  max_huur: 2000             # in euro per maand (inclusief servicekosten waar de site dat los vermeldt)
+  min_m2: 60
+  min_slaapkamers: 2
+  # Sommige sites tonen alleen het aantal kamers, niet het aantal slaapkamers.
+  # Dan rekenen we: kamers >= min_slaapkamers + 1 (woonkamer telt mee).
+  # Als een site m² of slaapkamers helemaal niet toont, krijg je de woning wél,
+  # met een waarschuwing erbij. Zet strikt op true om die over te slaan.
+  strikt: false
+
+# Welke bronnen aan staan (true/false)
+bronnen:
+  pararius: true
+  funda: true
+  huurwoningen: true
+  kamernet: true
+  vesteda: true
+  bouwinvest: true
+  ikwilhuren: true      # MVGM-aanbod (o.a. a.s.r., Syntrus, Amvest)
+  123wonen: true
+
+# Extra makelaars toevoegen? Elke makelaar met een aanbodpagina werkt meestal.
+#   naam:        hoe hij in de melding heet
+#   urls:        aanbodpagina('s), het liefst al gefilterd op Utrecht en nieuwste eerst
+#   link_patroon: stukje dat in de link van elke woning zit (reguliere expressie)
+extra_makelaars:
+  - naam: 123Wonen
+    sleutel: 123wonen
+    urls:
+      - https://www.123wonen.nl/huurwoningen/in/utrecht
+    link_patroon: '/huur/utrecht/'
+  - naam: ikwilhuren.nu (MVGM)
+    sleutel: ikwilhuren
+    urls:
+      - https://ikwilhuren.nu/aanbod/?page=1
+      - https://ikwilhuren.nu/aanbod/?page=2
+      - https://ikwilhuren.nu/aanbod/?page=3
+    link_patroon: '/object/utrecht-'
