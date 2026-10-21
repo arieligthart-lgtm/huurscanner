@@ -1,0 +1,66 @@
+{
+ "addresses": {
+  "brusselplein107": 1792577446.9464679,
+  "parijsboulevard11": 1792577446.9464679
+ },
+ "fails": {
+  "123wonen": 0,
+  "bouwinvest": 0,
+  "funda": 1,
+  "huurwoningen": 1,
+  "ikwilhuren": 1,
+  "kamernet": 0,
+  "pararius": 1,
+  "vesteda": 0
+ },
+ "seen": {
+  "123wonen": {
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/dollardstraat-1910-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/einsteindreef-1916-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/louis+armstronglaan-1892-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/maliebaan-1897-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/minister+talmastraat-1907-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/nieuwe+koekoekstraat-1896-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/van+esveldstraat-1894-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/benedenwoning/karawanken-1908-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/hoekwoning/dwarsligger-1915-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/studio/ina+boudier-bakkerlaan-1906-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/tussenwoning/2e+daalsedijk-1917-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/tussenwoning/esdoornstraat-1918-25": 1792577446.9464679
+  },
+  "bouwinvest": {
+   "Wonen bij Bouwinvest:19510": 1792577446.9464679,
+   "Wonen bij Bouwinvest:19522": 1792577446.9464679,
+   "Wonen bij Bouwinvest:19971": 1792577446.9464679,
+   "Wonen bij Bouwinvest:26255": 1792577446.9464679
+  },
+  "kamernet": {
+   "Kamernet:2412656": 1792577446.9464679,
+   "Kamernet:2412769": 1792577446.9464679,
+   "Kamernet:2412942": 1792577446.9464679,
+   "Kamernet:2412975": 1792577446.9464679,
+   "Kamernet:2412994": 1792577446.9464679,
+   "Kamernet:2413113": 1792577446.9464679
+  },
+  "vesteda": {
+   "Vesteda:10582": 1792577446.9464679,
+   "Vesteda:10628": 1792577446.9464679,
+   "Vesteda:10751": 1792577446.9464679,
+   "Vesteda:32599": 1792577446.9464679,
+   "Vesteda:32651": 1792577446.9464679,
+   "Vesteda:32665": 1792577446.9464679,
+   "Vesteda:32688": 1792577446.9464679,
+   "Vesteda:7419": 1792577446.9464679,
+   "Vesteda:7423": 1792577446.9464679,
+   "Vesteda:7455": 1792577446.9464679,
+   "Vesteda:7465": 1792577446.9464679,
+   "Vesteda:7658": 1792577446.9464679,
+   "Vesteda:7693": 1792577446.9464679,
+   "Vesteda:7717": 1792577446.9464679,
+   "Vesteda:9119": 1792577446.9464679,
+   "Vesteda:9128": 1792577446.9464679,
+   "Vesteda:9130": 1792577446.9464679,
+   "Vesteda:9220": 1792577446.9464679
+  }
+ }
+}
