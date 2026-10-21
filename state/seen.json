@@ -6,11 +6,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 2,
-  "huurwoningen": 2,
+  "funda": 3,
+  "huurwoningen": 3,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 2,
+  "pararius": 3,
   "vesteda": 0
  },
  "seen": {
@@ -44,7 +44,8 @@
    "Kamernet:2412769": 1792565661.8572352,
    "Kamernet:2412942": 1792565661.8572352,
    "Kamernet:2412975": 1792565661.8572352,
-   "Kamernet:2412994": 1792565661.8572352
+   "Kamernet:2412994": 1792565661.8572352,
+   "Kamernet:2413113": 1792570336.8364348
   },
   "vesteda": {
    "Vesteda:10582": 1792565661.8572352,
