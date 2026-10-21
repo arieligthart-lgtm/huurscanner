@@ -1,17 +1,24 @@
 {
  "addresses": {
+  "abcstraat33": 1792576399.7641451,
+  "adriaenvanostadelaan40a": 1792576399.7641451,
   "brusselplein107": 1792565661.8572352,
+  "hendrickdekeyserstraat30a": 1792576399.7641451,
+  "oranjerivierdreef14c": 1792576399.7641451,
+  "palmaleterstraat18": 1792576399.7641451,
   "parijsboulevard11": 1792565661.8572352,
-  "rachmaninoffplantsoen112": 1792572467.9391987
+  "rachmaninoffplantsoen112": 1792572467.9391987,
+  "rooseveltlaan752": 1792576399.7641451,
+  "zambesidreef119": 1792576399.7641451
  },
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 5,
-  "huurwoningen": 5,
-  "ikwilhuren": 0,
+  "funda": 6,
+  "huurwoningen": 6,
+  "ikwilhuren": 1,
   "kamernet": 0,
-  "pararius": 5,
+  "pararius": 0,
   "vesteda": 0
  },
  "seen": {
@@ -48,6 +55,24 @@
    "Kamernet:2412975": 1792565661.8572352,
    "Kamernet:2412994": 1792565661.8572352,
    "Kamernet:2413113": 1792570336.8364348
+  },
+  "pararius": {
+   "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792576399.7641451,
+   "Pararius:0ef6b14f-b69e-5fa5-8f19-472ff39ba175": 1792576399.7641451,
+   "Pararius:1c09f2f1-103f-53b9-9c21-ccace15f86c0": 1792576399.7641451,
+   "Pararius:32674f65-30ca-52f3-af4a-2af84a533453": 1792576399.7641451,
+   "Pararius:50dcadff-f733-5132-94a2-5ff168ce9ef4": 1792576399.7641451,
+   "Pararius:63017bdc-f8b1-5ee9-8f27-7dfc82a3f4f7": 1792576399.7641451,
+   "Pararius:69769a1d-6b03-56b1-a198-027415d1335e": 1792576399.7641451,
+   "Pararius:781010f3-b6a9-5bec-99d0-eb3fe8d6d33c": 1792576399.7641451,
+   "Pararius:8b0f5c7a-7a1d-5a36-933d-a8affacce4f3": 1792576399.7641451,
+   "Pararius:9a21be1c-0ccc-55af-87e2-89a740926fd9": 1792576399.7641451,
+   "Pararius:be6de806-2a81-5565-bb33-cb10f4732698": 1792576399.7641451,
+   "Pararius:c2566977-3364-5d96-bd26-ffac0f4e454e": 1792576399.7641451,
+   "Pararius:c993de17-297e-59d4-b81d-f88a74e979a5": 1792576399.7641451,
+   "Pararius:cf43173a-3d83-57f0-b69a-abedc8aee650": 1792576399.7641451,
+   "Pararius:deeeff18-5176-5b7e-9273-1093c64ef709": 1792576399.7641451,
+   "Pararius:fc47bdb6-5fe5-595a-8f30-42bf58d06f9e": 1792576399.7641451
   },
   "vesteda": {
    "Vesteda:10582": 1792565661.8572352,
