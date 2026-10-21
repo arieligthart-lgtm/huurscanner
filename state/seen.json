@@ -14,11 +14,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 7,
-  "huurwoningen": 7,
-  "ikwilhuren": 2,
+  "funda": 8,
+  "huurwoningen": 8,
+  "ikwilhuren": 3,
   "kamernet": 0,
-  "pararius": 1,
+  "pararius": 2,
   "vesteda": 0
  },
  "seen": {
@@ -94,5 +94,6 @@
    "Vesteda:9130": 1792565661.8572352,
    "Vesteda:9220": 1792565661.8572352
   }
- }
+ },
+ "telegram_chat_id": "8621705811"
 }
