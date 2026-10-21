@@ -4,13 +4,13 @@
   "parijsboulevard11": 1792577446.9464679
  },
  "fails": {
-  "123wonen": 2,
-  "bouwinvest": 3,
-  "funda": 9,
-  "huurwoningen": 0,
-  "ikwilhuren": 9,
+  "123wonen": 3,
+  "bouwinvest": 4,
+  "funda": 10,
+  "huurwoningen": 1,
+  "ikwilhuren": 10,
   "kamernet": 0,
-  "pararius": 2,
+  "pararius": 3,
   "vesteda": 0
  },
  "last_run": {},
@@ -84,7 +84,13 @@
    "Kamernet:2413186": 1792591091.4793346,
    "Kamernet:2413189": 1792591091.4793346,
    "Kamernet:2413190": 1792591091.4793346,
+   "Kamernet:2413193": 1792592935.8176243,
+   "Kamernet:2413194": 1792592935.8176243,
+   "Kamernet:2413203": 1792592935.8176243,
+   "Kamernet:2413205": 1792592935.8176243,
+   "Kamernet:2413211": 1792592935.8176243,
    "Kamernet:2413224": 1792591091.4793346,
+   "Kamernet:2413225": 1792592935.8176243,
    "Kamernet:2413226": 1792591091.4793346,
    "Kamernet:2413227": 1792591091.4793346
   },
