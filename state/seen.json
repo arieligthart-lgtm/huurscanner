@@ -8,11 +8,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 22,
-  "huurwoningen": 13,
+  "funda": 23,
+  "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 1,
+  "pararius": 2,
   "vesteda": 0
  },
  "last_run": {},
@@ -40,6 +40,7 @@
   "huurwoningen": {
    "Huurwoningen.nl:06eb173c-ff29-5aae-bfc0-fd2ea7bb2ee2": 1792578159.7766538,
    "Huurwoningen.nl:08e6b7fb-95bb-5dc4-b4dd-7b7f76fb8a78": 1792578159.7766538,
+   "Huurwoningen.nl:0a6a8dd9-2eae-59eb-bcb4-fdd2a13f2180": 1792617391.571309,
    "Huurwoningen.nl:0ccfdf88-9e5d-5c55-902e-d5f4e3cd31f7": 1792578159.7766538,
    "Huurwoningen.nl:0ef06169-11bc-5aae-8780-9df7e3100821": 1792578159.7766538,
    "Huurwoningen.nl:11b60d4d-64b0-52c9-a279-cdf13e1fb339": 1792578159.7766538,
@@ -48,6 +49,7 @@
    "Huurwoningen.nl:23a820ab-b2df-5865-af07-6880172cce3b": 1792578159.7766538,
    "Huurwoningen.nl:431169eb-abd7-59ed-8d2b-88e047086edc": 1792591091.4793346,
    "Huurwoningen.nl:43279026-375a-5912-a76a-554a3a33cbad": 1792591091.4793346,
+   "Huurwoningen.nl:4ceb4c6c-b349-5f00-b860-919e6f752dea": 1792617391.571309,
    "Huurwoningen.nl:4da4beb7-00d4-5d37-88f7-6253a961fc04": 1792578159.7766538,
    "Huurwoningen.nl:55e67af3-1845-57c8-87b0-f4e58456e3a6": 1792578159.7766538,
    "Huurwoningen.nl:57c3b834-9cfe-5346-98a8-8b922a0f84db": 1792591091.4793346,
@@ -73,6 +75,7 @@
    "Huurwoningen.nl:d1f8c221-3eff-523c-a2d8-1a39b54525ee": 1792578159.7766538,
    "Huurwoningen.nl:d7b7acda-ed74-551d-a1b0-d4c4259d82e2": 1792578159.7766538,
    "Huurwoningen.nl:e6c6381b-5684-5a4c-a3b3-d642943b5d76": 1792578159.7766538,
+   "Huurwoningen.nl:eb1a295f-d202-52f0-84d9-77188987e102": 1792617391.571309,
    "Huurwoningen.nl:f10912bb-fe93-59e5-8e17-8e8198ee9f3e": 1792578159.7766538,
    "Huurwoningen.nl:f2e7acf9-b8c1-5d35-8385-185fcd06866c": 1792578159.7766538
   },
