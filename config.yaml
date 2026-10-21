@@ -5,9 +5,26 @@
 
 criteria:
   plaats: utrecht            # kleine letters, zoals in de URL van Pararius/Funda
-  max_huur: 2000             # in euro per maand (inclusief servicekosten waar de site dat los vermeldt)
+  max_huur: 1800             # in euro per maand (inclusief servicekosten waar de site dat los vermeldt)
   min_m2: 60
   min_slaapkamers: 2
+  # Wijken die je niet wilt. We kijken naar de wijknaam (Pararius, Huurwoningen.nl en de
+  # omschrijving bij makelaars) en naar de postcode (Funda, Vesteda, Bouwinvest).
+  # De postcodes zijn een grove indeling en kunnen aan de randen een woning net te veel
+  # of te weinig uitsluiten. Haal een postcode weg als je die buurt toch wilt zien.
+  # Kamernet geeft geen postcode, daar kan niet op wijk gefilterd worden.
+  uitsluiten:
+    wijken: [overvecht, kanaleneiland]
+    postcodes: [3561, 3562, 3563, 3564, 3565, 3526, 3527]
+  # Uitzondering: tot dit bedrag mag een woning boven max_huur, maar alleen als hij in een
+  # topbuurt ligt EN groot genoeg is. Pas de buurten aan naar jouw smaak.
+  # Zet uitzondering weg (of max_huur gelijk) als je dit niet wilt.
+  uitzondering:
+    max_huur: 1900
+    min_m2: 75
+    min_slaapkamers: 3
+    buurten: [binnenstad, wittevrouwen, oudwijk, wilhelminapark, lombok, tuindorp, rijnsweerd, zeehelden]
+    postcodes: [3511, 3512, 3513, 3581, 3582, 3583]
   # Sommige sites tonen alleen het aantal kamers, niet het aantal slaapkamers.
   # Dan rekenen we: kamers >= min_slaapkamers + 1 (woonkamer telt mee).
   # Als een site m² of slaapkamers helemaal niet toont, krijg je de woning wél,
@@ -42,3 +59,32 @@ extra_makelaars:
       - https://ikwilhuren.nu/aanbod/?page=2
       - https://ikwilhuren.nu/aanbod/?page=3
     link_patroon: '/object/utrecht-'
+
+# Proxy (alleen gebruikt als het secret PROXY_URL in GitHub is ingesteld).
+# Deze bronnen blokkeren servers van GitHub en gaan daarom via de proxy.
+# Een proxy rekent af op dataverbruik, dus deze bronnen worden niet elke 5 minuten
+# gescand maar met het interval hieronder. De rest blijft elke 5 minuten.
+proxy:
+  bronnen: [pararius, funda, huurwoningen]
+  interval_minuten: 15
+
+# Het bericht dat bij elke melding als losse Telegram-tekst meekomt, klaar om te plakken.
+# De scanner vult automatisch in:
+#   {woning}  bijv. "Dit appartement op Bataviastraat 12"
+#   {ruimte}  bijv. "de ruimte (84 m²)" (of "de indeling" als de m² onbekend zijn)
+#   {wijk}    bijv. " in Wittevrouwen" (leeg als de wijk niet bekend is)
+# Wil je geen bericht? Haal alles na "bericht:" weg of zet er "" achter.
+bericht: |
+  Hoi! Wij zijn Fleur (26) & Arie (27), en wij zijn op zoek naar een fijn huis! {woning} spreekt ons enorm aan, we worden helemaal warm van {ruimte} en de locatie{wijk}. Wij zijn bijna 7 jaar samen en willen heel graag de stap maken naar samenwonen.
+
+  Arie woont al 7 jaar in Utrecht en werkt als Employer Branding Marketeer in Ermelo. Fleur woont nu in Leiden en werkt als Medisch Maatschappelijk Werker bij het LUMC. We zijn dol op Utrecht en het is voor ons nu de ideale plek om ons leven op te bouwen. En qua locatie ligt het ook nog eens precies mooi tussen ons werk in! In onze vrije tijd zijn we vaak te vinden op de tennisbaan, bij de yoga of lopen we samen een rondje door de stad.
+
+  Alvast wat praktische informatie over ons:
+  Inkomen: Ons gezamenlijk bruto maandinkomen is bijna € 7.000,-
+  We zoeken een plek voor de langere termijn en kunnen flexibel/ per direct intrekken.
+  We zijn rustige, nette huurders, roken niet en hebben geen huisdieren.
+
+  We hopen heel erg dat we langs mogen komen voor een bezichtiging om kennis te maken!
+
+  Met vriendelijke groet,
+  Fleur & Arie

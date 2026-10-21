@@ -46,6 +46,8 @@ class Listing:
     location: str = ""
     image: str | None = None
     status: str = ""
+    top: bool = False  # valt onder de uitzondering (hogere huur voor een topwoning)
+    extra: str = ""  # omschrijving van de woning, om de wijk in te herkennen
     warnings: list[str] = field(default_factory=list)
 
     @property
@@ -61,9 +63,14 @@ class Listing:
 
 
 # ───────────────────────── helpers ─────────────────────────
+PROXY_ACTIVE: str | None = None  # wordt per bron gezet in main()
+
+
 def get(url: str, **kw):
     kw.setdefault("headers", HEADERS)
     kw.setdefault("timeout", 30)
+    if PROXY_ACTIVE:
+        kw.setdefault("proxies", {"http": PROXY_ACTIVE, "https": PROXY_ACTIVE})
     r = http.get(url, **IMPERSONATE, **kw)
     if r.status_code != 200:
         raise RuntimeError(f"HTTP {r.status_code} voor {url}")
@@ -187,7 +194,7 @@ def scrape_pararius_like(base: str, path: str, source: str) -> list[Listing]:
 
 
 def scrape_pararius(c) -> list[Listing]:
-    p = f"/huurwoningen/{c['plaats']}/0-{c['max_huur']}/{c['min_slaapkamers']}-slaapkamers/{c['min_m2']}m2"
+    p = f"/huurwoningen/{c['plaats']}/0-{c['zoek_max']}/{c['min_slaapkamers']}-slaapkamers/{c['min_m2']}m2"
     items = scrape_pararius_like("https://www.pararius.nl", p, "Pararius")
     for it in items:  # Pararius filtert slaapkamers al aan serverkant
         it.bedrooms = it.bedrooms or c["min_slaapkamers"]
@@ -195,7 +202,7 @@ def scrape_pararius(c) -> list[Listing]:
 
 
 def scrape_huurwoningen(c) -> list[Listing]:
-    q = (f"/in/{c['plaats']}/?filters%5Bprice%5D%5Bmax%5D={c['max_huur']}"
+    q = (f"/in/{c['plaats']}/?filters%5Bprice%5D%5Bmax%5D={c['zoek_max']}"
          f"&filters%5Bbedrooms%5D%5Bmin%5D={c['min_slaapkamers']}"
          f"&filters%5Bliving_size%5D%5Bmin%5D={c['min_m2']}")
     return scrape_pararius_like("https://www.huurwoningen.nl", q, "Huurwoningen.nl")
@@ -203,7 +210,7 @@ def scrape_huurwoningen(c) -> list[Listing]:
 
 def scrape_funda(c) -> list[Listing]:
     url = ("https://www.funda.nl/zoeken/huur?selected_area=" + quote(f'["{c["plaats"]}"]') +
-           "&price=" + quote(f'"0-{c["max_huur"]}"') +
+           "&price=" + quote(f'"0-{c["zoek_max"]}"') +
            "&floor_area=" + quote(f'"{c["min_m2"]}-"') +
            "&bedrooms=" + quote(f'"{c["min_slaapkamers"]}-"') +
            "&sort=" + quote('"date_down"'))
@@ -262,7 +269,7 @@ def scrape_vesteda(c) -> list[Listing]:
     lat, lng = VESTEDA_COORDS.get(c["plaats"], VESTEDA_COORDS["utrecht"])
     body = {"filters": [0], "language": "nl", "latitude": lat, "longitude": lng,
             "place": c["plaats"].capitalize(), "placeType": 1, "priceFrom": 500,
-            "priceTo": c["max_huur"], "radius": 5, "sorting": 0}
+            "priceTo": c["zoek_max"], "radius": 5, "sorting": 0}
     res = post_json("https://www.vesteda.com/api/units/search/facet", body)["results"]
     objs = res.get("objects") or []
     if isinstance(objs, dict):
@@ -319,6 +326,9 @@ def enrich_from_detail(l: Listing):
     if not l.image:
         og = sp.find("meta", property="og:image")
         l.image = og.get("content") if og else None
+    desc = sp.select_one(".panddetail-desc")
+    if desc:
+        l.extra = desc.get_text(" ", strip=True)[:3000]
     h1 = sp.find("h1")
     if h1 and (len(l.title) < 8 or "," in l.title or len(l.title) > 60):
         l.title = h1.get_text(" ", strip=True)[:80] or l.title
@@ -353,8 +363,42 @@ def scrape_generic(cfg: dict) -> list[Listing]:
 
 
 # ───────────────────────── filter ─────────────────────────
+def excluded_area(l: Listing, c: dict) -> str | None:
+    """Geeft de reden terug als de woning in een uitgesloten wijk ligt."""
+    ex = c.get("uitsluiten") or {}
+    hay = f"{l.location} {l.extra}".lower()
+    for w in ex.get("wijken") or []:
+        if re.search(rf"\b{re.escape(str(w).lower())}\b", hay):
+            return str(w)
+    pcs = {str(p) for p in ex.get("postcodes") or []}
+    m = re.search(r"\b(\d{4})\s?[A-Za-z]{2}\b", l.location)
+    if m and m.group(1) in pcs:
+        return m.group(1)
+    return None
+
+
+def is_top(l: Listing, c: dict) -> bool:
+    """Mag deze woning boven de gewone maximale huur? Alleen in een topbuurt en als het huis groot genoeg is."""
+    u = c.get("uitzondering") or {}
+    if not u or l.price is None or l.price > u.get("max_huur", 0):
+        return False
+    big = (l.m2 or 0) >= u.get("min_m2", 0) or (l.bedrooms or 0) >= u.get("min_slaapkamers", 99)
+    if not big:
+        return False
+    hay = f"{l.location} {l.extra}".lower()
+    if any(re.search(rf"\b{re.escape(str(w).lower())}\b", hay) for w in u.get("buurten") or []):
+        return True
+    pcs = {str(p) for p in u.get("postcodes") or []}
+    m = re.search(r"\b(\d{4})\s?[A-Za-z]{2}\b", l.location)
+    return bool(m and m.group(1) in pcs)
+
+
 def matches(l: Listing, c: dict) -> bool:
     if l.status and SKIP_STATUS.search(l.status) or l.status == "niet beschikbaar":
+        return False
+    reden = excluded_area(l, c)
+    if reden:
+        print(f"   (uitgesloten: {reden}) {l.source} {l.title}")
         return False
     strict = c.get("strikt", False)
     if l.price is None:
@@ -362,7 +406,10 @@ def matches(l: Listing, c: dict) -> bool:
             return False
         l.warnings.append("prijs onbekend")
     elif l.price > c["max_huur"]:
-        return False
+        if not is_top(l, c):
+            return False
+        l.top = True
+        l.warnings.append(f"boven € {c['max_huur']}: topwoning/topbuurt (max € {c['zoek_max']})")
     if l.m2 is None:
         if strict:
             return False
@@ -447,6 +494,33 @@ def fmt(l: Listing) -> str:
     return msg
 
 
+TYPES = {"appartement": "Dit", "huis": "Dit", "penthouse": "Dit", "maisonnette": "Deze", "benedenwoning": "Deze",
+         "bovenwoning": "Deze", "eengezinswoning": "Deze", "tussenwoning": "Deze", "hoekwoning": "Deze",
+         "studio": "Deze", "woning": "Deze", "portiekwoning": "Deze", "galerijflat": "Deze"}
+
+
+def reactie(l: Listing, template: str) -> str:
+    """Basisbericht, licht aangepast aan deze woning. Alleen wat we zeker weten."""
+    t = l.title.strip()
+    m = re.match(r"^(" + "|".join(TYPES) + r")\s+(.*)$", t, re.I)
+    soort, adres = (m.group(1).lower(), m.group(2).strip()) if m else ("woning", t)
+    adres = re.sub(r"\s*\(.*?\)\s*$", "", adres).strip(" ,")
+    woning = f"{TYPES.get(soort, 'Deze')} {soort}"
+    if adres and re.search(r"[A-Za-z]", adres) and len(adres) < 60:
+        woning += f" op {adres}"
+    ruimte = f"de ruimte ({l.m2} m²)" if l.m2 else "de indeling"
+    wijk = ""
+    mw = re.search(r"\(([^)]+)\)", l.location or "")
+    if mw and mw.group(1).strip().lower() != "utrecht":
+        wijk = f" in {mw.group(1).strip()}"
+    return template.format(woning=woning, ruimte=ruimte, wijk=wijk).strip()
+
+
+def fmt_reactie(l: Listing, template: str) -> str:
+    return ("✉️ <b>Reactie om te plakken</b> (tik op de tekst om te kopiëren)\n<pre>"
+            + htmllib.escape(reactie(l, template)) + "</pre>")
+
+
 # ───────────────────────── main ─────────────────────────
 BUILTIN = {
     "pararius": scrape_pararius,
@@ -476,6 +550,7 @@ def save_state(st: dict):
 
 
 def main():
+    global PROXY_ACTIVE
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="niets versturen, alleen tonen")
     ap.add_argument("--test-telegram", action="store_true", help="stuur een testbericht")
@@ -485,6 +560,8 @@ def main():
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     c = cfg["criteria"]
+    c["zoek_max"] = max(c["max_huur"], (c.get("uitzondering") or {}).get("max_huur", 0))
+    template = (cfg.get("bericht") or "").strip()
     st = load_state()
     st.setdefault("fails", {})
     tg = Telegram(os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID"), st, args.dry_run)
@@ -511,7 +588,20 @@ def main():
     now = time.time()
     first_run_summary = []
     total_new = 0
+    pcfg = cfg.get("proxy") or {}
+    proxy_url = (os.getenv("PROXY_URL") or "").strip()
+    proxy_keys = set(pcfg.get("bronnen") or [])
+    interval = int(pcfg.get("interval_minuten", 15))
+    scheduled = os.getenv("GITHUB_EVENT_NAME") == "schedule"
+    st.setdefault("last_run", {})
     for key, job in jobs:
+        use_proxy = bool(proxy_url) and key in proxy_keys
+        if use_proxy and scheduled and now - st["last_run"].get(key, 0) < (interval - 2) * 60:
+            print(f"[{key}] overgeslagen (via proxy, max 1x per {interval} min)")
+            continue
+        PROXY_ACTIVE = proxy_url if use_proxy else None
+        if use_proxy:
+            st["last_run"][key] = now
         try:
             items = job()
         except Exception as e:
@@ -555,6 +645,8 @@ def main():
             if ak:
                 st["addresses"][ak] = now
             tg.send(fmt(it), it.image)
+            if template:
+                tg.send(fmt_reactie(it, template))
             total_new += 1
         time.sleep(random.uniform(1, 3))
 
