@@ -6,13 +6,14 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 3,
-  "huurwoningen": 1,
-  "ikwilhuren": 3,
+  "funda": 4,
+  "huurwoningen": 2,
+  "ikwilhuren": 4,
   "kamernet": 0,
-  "pararius": 3,
+  "pararius": 4,
   "vesteda": 0
  },
+ "last_run": {},
  "seen": {
   "123wonen": {
    "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/dollardstraat-1910-25": 1792577446.9464679,
