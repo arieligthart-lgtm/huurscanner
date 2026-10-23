@@ -8,11 +8,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 98,
-  "huurwoningen": 19,
+  "funda": 99,
+  "huurwoningen": 20,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 10,
+  "pararius": 11,
   "vesteda": 0
  },
  "last_run": {},
@@ -26,6 +26,7 @@
    "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/nieuwe+koekoekstraat-1896-25": 1792577446.9464679,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/van+esveldstraat-1894-25": 1792577446.9464679,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/benedenwoning/karawanken-1908-25": 1792577446.9464679,
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/flat+galerij-portiek/jo+w%c3%bcthrichlaan-1921-25": 1792766669.208448,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/hoekwoning/dwarsligger-1915-25": 1792577446.9464679,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/studio/ina+boudier-bakkerlaan-1906-25": 1792577446.9464679,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/tussenwoning/2e+daalsedijk-1917-25": 1792577446.9464679,
