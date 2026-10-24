@@ -8,11 +8,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 142,
-  "huurwoningen": 12,
-  "ikwilhuren": 0,
+  "funda": 143,
+  "huurwoningen": 0,
+  "ikwilhuren": 1,
   "kamernet": 0,
-  "pararius": 54,
+  "pararius": 0,
   "vesteda": 0
  },
  "last_run": {},
@@ -139,6 +139,7 @@
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
    "Pararius:1c09f2f1-103f-53b9-9c21-ccace15f86c0": 1792585807.5902617,
    "Pararius:32674f65-30ca-52f3-af4a-2af84a533453": 1792585807.5902617,
+   "Pararius:52ac7a81-8129-5601-898c-d937d8dccdf3": 1792845556.914715,
    "Pararius:63017bdc-f8b1-5ee9-8f27-7dfc82a3f4f7": 1792585807.5902617,
    "Pararius:be6de806-2a81-5565-bb33-cb10f4732698": 1792585807.5902617,
    "Pararius:c993de17-297e-59d4-b81d-f88a74e979a5": 1792585807.5902617,
