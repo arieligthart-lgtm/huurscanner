@@ -8,11 +8,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 209,
-  "huurwoningen": 3,
+  "funda": 210,
+  "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 2,
+  "pararius": 3,
   "vesteda": 0
  },
  "last_run": {},
@@ -90,6 +90,7 @@
    "Huurwoningen.nl:c18f968b-ba06-5589-8c3b-978b196ad83a": 1792683396.4614267,
    "Huurwoningen.nl:c1da65d1-5504-5aae-b87f-6652f0ac17b8": 1792819757.8785424,
    "Huurwoningen.nl:c2ba1de6-7e31-588c-a084-913b1764955e": 1792578159.7766538,
+   "Huurwoningen.nl:c35b8044-d691-51ba-8272-4903b09649f3": 1792953067.7964423,
    "Huurwoningen.nl:c47d407e-8016-51d8-bf19-5d3f1e9b5025": 1792819757.8785424,
    "Huurwoningen.nl:c4c1f264-8002-5fe0-859b-e7add4928480": 1792907083.237962,
    "Huurwoningen.nl:c909677c-658e-5cb2-ad69-d9357a668b89": 1792578159.7766538,
@@ -102,7 +103,8 @@
    "Huurwoningen.nl:e6c6381b-5684-5a4c-a3b3-d642943b5d76": 1792578159.7766538,
    "Huurwoningen.nl:eb1a295f-d202-52f0-84d9-77188987e102": 1792617391.571309,
    "Huurwoningen.nl:f10912bb-fe93-59e5-8e17-8e8198ee9f3e": 1792578159.7766538,
-   "Huurwoningen.nl:f2e7acf9-b8c1-5d35-8385-185fcd06866c": 1792578159.7766538
+   "Huurwoningen.nl:f2e7acf9-b8c1-5d35-8385-185fcd06866c": 1792578159.7766538,
+   "Huurwoningen.nl:f5e61c24-2050-5ef6-a438-c9fe88601817": 1792953067.7964423
   },
   "ikwilhuren": {
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3513db-64-jongeneelstraat-ce77c7f4808edd0b4968ee7b963a2688/": 1792604810.5533447,
