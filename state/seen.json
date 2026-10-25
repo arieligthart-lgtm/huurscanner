@@ -8,11 +8,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 199,
-  "huurwoningen": 15,
+  "funda": 200,
+  "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 10,
+  "pararius": 11,
   "vesteda": 0
  },
  "last_run": {},
@@ -53,6 +53,7 @@
    "Huurwoningen.nl:28eda35f-a23b-58ee-8a54-576034f04886": 1792819757.8785424,
    "Huurwoningen.nl:2c406b78-9818-5644-b5ec-28b4bcb1ad18": 1792819757.8785424,
    "Huurwoningen.nl:2e611ccd-94ef-5afc-9864-04edb6562e06": 1792703867.4491754,
+   "Huurwoningen.nl:358dee51-aa52-51b6-9511-be875521feda": 1792937482.4485996,
    "Huurwoningen.nl:381d4c56-52da-506e-a325-a6c82b6f1a70": 1792819757.8785424,
    "Huurwoningen.nl:41d13eb5-9191-55b4-92de-9046a44e5032": 1792819757.8785424,
    "Huurwoningen.nl:431169eb-abd7-59ed-8d2b-88e047086edc": 1792591091.4793346,
