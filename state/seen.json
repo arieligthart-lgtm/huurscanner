@@ -12,10 +12,10 @@
   "vlisthof71": 1793125350.239807
  },
  "fails": {
-  "123wonen": 0,
+  "123wonen": 1,
   "bouwinvest": 0,
-  "funda": 317,
-  "huurwoningen": 0,
+  "funda": 318,
+  "huurwoningen": 1,
   "ikwilhuren": 0,
   "kamernet": 0,
   "pararius": 0,
@@ -150,6 +150,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-509-van-sijpesteijnkade-b5fcefe6174722dc4de9d3f064ce242e/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-63-van-sijpesteijnkade-aa920a98e87b36b525cefc0259e066c0/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521da-6-rolderdiephof-6499f7919b4638b220a60040111a326d/": 1792656089.4062686,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521dv-74-twellosebeeklaan-387a64a99d48cad6d86dec50bf1bac68/": 1793203798.7742,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3526vx-573-amerikalaan-4c129cb6c25f1f95cf25cf8ad26edec7/": 1792660461.0835361,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3531ck-18-g-kanaalstraat-f4ea1ab5bb3fb7925e9c9285a4d80f31/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3531ck-28-e-kanaalstraat-ea4cd76f8bcd7716629b1a40c4c6248e/": 1793034874.0493696,
