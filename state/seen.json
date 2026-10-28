@@ -14,11 +14,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 326,
-  "huurwoningen": 0,
+  "funda": 327,
+  "huurwoningen": 1,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 6,
+  "pararius": 7,
   "vesteda": 0
  },
  "last_run": {},
