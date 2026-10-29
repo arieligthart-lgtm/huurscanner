@@ -1,6 +1,8 @@
 {
  "addresses": {
   "brusselplein107": 1792577446.9464679,
+  "eengezinswoninggoudesteinlaan40": 1793265855.1154344,
+  "eengezinswoningnachtvlinderplantsoen30": 1793265855.1154344,
   "hogeweide316": 1793115111.1585412,
   "jongeneelstraat64": 1792604810.5533447,
   "nijenoord315": 1793034874.0493696,
@@ -14,11 +16,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 341,
-  "huurwoningen": 9,
+  "funda": 342,
+  "huurwoningen": 10,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 9,
+  "pararius": 10,
   "vesteda": 0
  },
  "last_run": {},
@@ -160,14 +162,18 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3531ck-28-e-kanaalstraat-ea4cd76f8bcd7716629b1a40c4c6248e/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3531ck-34-h-kanaalstraat-53fb5c954c93258c0712ed6635b09f7e/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3533jz-112-rachmaninoffplantsoen-110ee4a5920c3de476e664a84ec8fd5a/": 1792604810.5533447,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-342-tussenbusstraat-33c9eea862496c0e43a227d2806a69e0/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-36-tussenbusstraat-ebd7f3ce2bce70957696bf10e4b7890b/": 1792604810.5533447,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-474-tussenbusstraat-5523a4e5ec38d94452e35bbfada2a0e7/": 1792658247.7798584,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543eg-39-lloyd-webberhof-703f09ef368b25848f13b221cebd862e/": 1793112477.7075558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-103-sonny-rollinsstraat-0afefd1ad6ae11dab283c59b3ed9408b/": 1793117970.7262707,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-135-sonny-rollinsstraat-7a7ded19463f31f0e1c677d16bbc2104/": 1793115111.1585412,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dz-30-nachtvlinderplantsoen-1cb9cc76a00f3ac7c4840ae3854b37f6/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-310-hogeweide-6fa5af39b0ad4aadac0f34745bc61a1c/": 1792653480.596242,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-316-hogeweide-3767d0d2c2f236b638d36041d716d4ce/": 1793115111.1585412,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-315-nijenoord-cebb37f9b13ed5b9fe7c7c0e475da989/": 1793034874.0493696,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552tl-8-11-jagerskade-874c56cc5cc9bb9aa4ede48e30ce08d2/": 1793265855.1154344,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3555xv-40-goudesteinlaan-e31244e15769e4394d930a08ed891eb0/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3573at-583-aartsbisschop-romerostraat-24b26049de59b1de419c7e16e7e8c64e/": 1792604810.5533447,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3573sj-97-oldenburgerstraat-893935256ec335e8bd0a92db173949a9/": 1793097473.2819376
   },
