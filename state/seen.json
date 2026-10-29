@@ -14,11 +14,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 338,
-  "huurwoningen": 6,
+  "funda": 339,
+  "huurwoningen": 7,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 6,
+  "pararius": 7,
   "vesteda": 0
  },
  "last_run": {},
@@ -193,7 +193,9 @@
    "Kamernet:2413696": 1792825784.0822353,
    "Kamernet:2413963": 1792942238.9943795,
    "Kamernet:2414522": 1793101893.6397865,
-   "Kamernet:2414670": 1793186068.378986
+   "Kamernet:2414670": 1793186068.378986,
+   "Kamernet:2414934": 1793256804.3375075,
+   "Kamernet:2414937": 1793256804.3375075
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
