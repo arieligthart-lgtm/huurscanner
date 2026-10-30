@@ -1,6 +1,7 @@
 {
  "addresses": {
   "brusselplein107": 1792577446.9464679,
+  "carelwillinkstraat94": 1793357483.5045967,
   "eengezinswoninggoudesteinlaan40": 1793265855.1154344,
   "eengezinswoningnachtvlinderplantsoen30": 1793265855.1154344,
   "godfriedbomansstraat1": 1793279985.0349696,
@@ -12,6 +13,7 @@
   "parijsboulevard11": 1792577446.9464679,
   "rachmaninoffplantsoen112": 1792604810.5533447,
   "sonnyrollinsstraat103": 1793117970.7262707,
+  "taagdreef118h": 1793357483.5045967,
   "vansijpesteijnkade17d": 1793286794.7943192,
   "vansijpesteijnkade5e": 1793279985.0349696,
   "vansijpesteijnkade63": 1793034874.0493696,
@@ -20,11 +22,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 374,
-  "huurwoningen": 1,
+  "funda": 375,
+  "huurwoningen": 2,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 0,
+  "pararius": 1,
   "vesteda": 0
  },
  "last_run": {},
@@ -206,6 +208,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-135-sonny-rollinsstraat-7a7ded19463f31f0e1c677d16bbc2104/": 1793115111.1585412,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dz-30-nachtvlinderplantsoen-1cb9cc76a00f3ac7c4840ae3854b37f6/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ht-1-godfried-bomansstraat-27644bd749cbe10b82b0e14082419ac9/": 1793279985.0349696,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ma-94-carel-willinkstraat-b3d0717a3e68bd93846f81dda2d0765d/": 1793357483.5045967,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-310-hogeweide-6fa5af39b0ad4aadac0f34745bc61a1c/": 1792653480.596242,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-316-hogeweide-3767d0d2c2f236b638d36041d716d4ce/": 1793115111.1585412,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-221-nijenoord-67b361c316df51aa5373331f0fde69e9/": 1793279985.0349696,
@@ -214,6 +217,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-93-nijenoord-cf79576428e7f2ebb12e0be8c54de9c9/": 1793283510.6798677,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552tl-8-11-jagerskade-874c56cc5cc9bb9aa4ede48e30ce08d2/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3555xv-40-goudesteinlaan-e31244e15769e4394d930a08ed891eb0/": 1793265855.1154344,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3561vl-118-h-taagdreef-dc0c2dec9a2dd462751b739329c1aa58/": 1793357483.5045967,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3563av-58-e-kaap-hoorndreef-1ee91efaf77906126bf4e1202db4fd5f/": 1793354875.621905,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3573at-583-aartsbisschop-romerostraat-24b26049de59b1de419c7e16e7e8c64e/": 1792604810.5533447,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3573sj-97-oldenburgerstraat-893935256ec335e8bd0a92db173949a9/": 1793097473.2819376
