@@ -20,11 +20,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 372,
-  "huurwoningen": 1,
+  "funda": 373,
+  "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 23,
+  "pararius": 24,
   "vesteda": 0
  },
  "last_run": {},
@@ -189,6 +189,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-63-van-sijpesteijnkade-aa920a98e87b36b525cefc0259e066c0/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521da-6-rolderdiephof-6499f7919b4638b220a60040111a326d/": 1792656089.4062686,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ds-453-twellosebeeklaan-a192bac606d77d1662993f3782b3033b/": 1793262810.7229016,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ds-527-twellosebeeklaan-f57bae80e1eaf2f66cfb6793584da7e6/": 1793351840.1402237,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521dv-112-twellosebeeklaan-d73948cb2a0e9591d7ad8a3f49099917/": 1793262810.7229016,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521dv-74-twellosebeeklaan-387a64a99d48cad6d86dec50bf1bac68/": 1793203798.7742,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3526vx-573-amerikalaan-4c129cb6c25f1f95cf25cf8ad26edec7/": 1792660461.0835361,
