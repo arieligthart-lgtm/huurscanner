@@ -22,11 +22,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 407,
-  "huurwoningen": 22,
+  "funda": 408,
+  "huurwoningen": 23,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 24,
+  "pararius": 25,
   "vesteda": 0
  },
  "last_run": {},
@@ -228,6 +228,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3573sj-97-oldenburgerstraat-893935256ec335e8bd0a92db173949a9/": 1793097473.2819376
   },
   "kamernet": {
+   "Kamernet:1958769": 1793440630.4807453,
    "Kamernet:2336334": 1793367921.3855124,
    "Kamernet:2412656": 1792577446.9464679,
    "Kamernet:2412769": 1792577446.9464679,
@@ -258,7 +259,8 @@
    "Kamernet:2414934": 1793256804.3375075,
    "Kamernet:2414937": 1793256804.3375075,
    "Kamernet:2415023": 1793283510.6798677,
-   "Kamernet:2415032": 1793286794.7943192
+   "Kamernet:2415032": 1793286794.7943192,
+   "Kamernet:2415332": 1793440630.4807453
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
