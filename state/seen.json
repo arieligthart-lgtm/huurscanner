@@ -22,11 +22,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 481,
-  "huurwoningen": 3,
+  "funda": 482,
+  "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 8,
+  "pararius": 9,
   "vesteda": 0
  },
  "last_run": {},
@@ -81,9 +81,11 @@
    "Huurwoningen.nl:25b74559-4ce4-59ee-b18e-aa5b2f43950f": 1793125350.239807,
    "Huurwoningen.nl:285208f0-1a78-5eba-8b43-ecdc836d0c75": 1793473900.423567,
    "Huurwoningen.nl:28eda35f-a23b-58ee-8a54-576034f04886": 1792819757.8785424,
+   "Huurwoningen.nl:2ad44a20-f6c2-52e8-a084-b1f04f19c652": 1793618419.8766112,
    "Huurwoningen.nl:2c406b78-9818-5644-b5ec-28b4bcb1ad18": 1792819757.8785424,
    "Huurwoningen.nl:2e611ccd-94ef-5afc-9864-04edb6562e06": 1792703867.4491754,
    "Huurwoningen.nl:2ebf70a5-f025-547b-a3d6-bb5445dbbd61": 1793125350.239807,
+   "Huurwoningen.nl:2f3637b5-0de2-50b5-a87a-9ed36766925b": 1793618419.8766112,
    "Huurwoningen.nl:2fe6cb37-fafa-535f-9369-1b365f9bb59d": 1793384214.6201203,
    "Huurwoningen.nl:30ffb3ca-7921-5fbb-a1ee-8e1939641ba4": 1793044138.3339689,
    "Huurwoningen.nl:358dee51-aa52-51b6-9511-be875521feda": 1792937482.4485996,
@@ -178,6 +180,7 @@
    "Huurwoningen.nl:eb1a295f-d202-52f0-84d9-77188987e102": 1792617391.571309,
    "Huurwoningen.nl:eec0c46d-2f83-570e-95ed-15b60843f109": 1793367921.3855124,
    "Huurwoningen.nl:eec7ec6d-f81d-5653-84f8-7a89d0698a81": 1793367921.3855124,
+   "Huurwoningen.nl:f0d212bd-8854-522c-a830-bc965a269a8b": 1793618419.8766112,
    "Huurwoningen.nl:f10912bb-fe93-59e5-8e17-8e8198ee9f3e": 1792578159.7766538,
    "Huurwoningen.nl:f24ff61a-20bc-55f8-b330-ea592bef4048": 1793125350.239807,
    "Huurwoningen.nl:f25d4dee-db94-5484-a6ed-925abdde5ccb": 1793345840.8039086,
@@ -270,7 +273,8 @@
    "Kamernet:2415032": 1793286794.7943192,
    "Kamernet:2415332": 1793440630.4807453,
    "Kamernet:2415412": 1793461782.581027,
-   "Kamernet:2415574": 1793542997.065117
+   "Kamernet:2415574": 1793542997.065117,
+   "Kamernet:2415777": 1793618419.8766112
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
