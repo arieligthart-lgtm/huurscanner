@@ -22,11 +22,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 486,
-  "huurwoningen": 0,
+  "funda": 487,
+  "huurwoningen": 1,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 0,
+  "pararius": 1,
   "vesteda": 0
  },
  "last_run": {},
@@ -235,6 +235,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-310-hogeweide-6fa5af39b0ad4aadac0f34745bc61a1c/": 1792653480.596242,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-316-hogeweide-3767d0d2c2f236b638d36041d716d4ce/": 1793115111.1585412,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-221-nijenoord-67b361c316df51aa5373331f0fde69e9/": 1793279985.0349696,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-255-nijenoord-c393255b4acf609fdcb5ef9cf1e3055f/": 1793636656.008374,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-315-nijenoord-cebb37f9b13ed5b9fe7c7c0e475da989/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-319-nijenoord-527cedcc2fab51c752d454da747bb8dd/": 1793283510.6798677,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-93-nijenoord-cf79576428e7f2ebb12e0be8c54de9c9/": 1793283510.6798677,
