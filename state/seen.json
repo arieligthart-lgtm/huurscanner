@@ -24,8 +24,8 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 567,
-  "huurwoningen": 0,
+  "funda": 568,
+  "huurwoningen": 1,
   "ikwilhuren": 0,
   "kamernet": 0,
   "pararius": 0,
@@ -328,6 +328,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-36-tussenbusstraat-ebd7f3ce2bce70957696bf10e4b7890b/": 1792604810.5533447,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-474-tussenbusstraat-5523a4e5ec38d94452e35bbfada2a0e7/": 1792658247.7798584,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-84-tussenbusstraat-5d31fd92e3b534dcba76f3dadc2b5896/": 1793629706.0318463,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-88-tussenbusstraat-42fe3b12caf44a98e2eabfa92cd51726/": 1793892971.1062305,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-90-tussenbusstraat-c756ca3b0b0ad826320228ad0492bda7/": 1793889676.875438,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543eg-39-lloyd-webberhof-703f09ef368b25848f13b221cebd862e/": 1793112477.7075558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-103-sonny-rollinsstraat-0afefd1ad6ae11dab283c59b3ed9408b/": 1793117970.7262707,
