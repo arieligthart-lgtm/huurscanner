@@ -1,6 +1,7 @@
 {
  "addresses": {
   "brusselplein107": 1792577446.9464679,
+  "brusselplein97": 1793950819.6818037,
   "carelwillinkstraat94": 1793357483.5045967,
   "eengezinswoninggoudesteinlaan40": 1793265855.1154344,
   "eengezinswoningnachtvlinderplantsoen30": 1793265855.1154344,
@@ -16,6 +17,7 @@
   "rachmaninoffplantsoen133": 1793794697.512149,
   "sonnyrollinsstraat103": 1793117970.7262707,
   "taagdreef118h": 1793357483.5045967,
+  "vaduzdijk87": 1793950819.6818037,
   "vansijpesteijnkade17d": 1793286794.7943192,
   "vansijpesteijnkade5e": 1793279985.0349696,
   "vansijpesteijnkade63": 1793034874.0493696,
@@ -24,11 +26,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 585,
-  "huurwoningen": 18,
+  "funda": 586,
+  "huurwoningen": 19,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 17,
+  "pararius": 18,
   "vesteda": 0
  },
  "last_run": {},
@@ -406,10 +408,13 @@
    "Pararius:cf43173a-3d83-57f0-b69a-abedc8aee650": 1792585807.5902617
   },
   "vesteda": {
+   "Vesteda:10494": 1793950819.6818037,
    "Vesteda:10582": 1792577446.9464679,
+   "Vesteda:10590": 1793950819.6818037,
    "Vesteda:10628": 1792577446.9464679,
    "Vesteda:10751": 1792577446.9464679,
    "Vesteda:32599": 1792577446.9464679,
+   "Vesteda:32625": 1793950819.6818037,
    "Vesteda:32651": 1792577446.9464679,
    "Vesteda:32665": 1792577446.9464679,
    "Vesteda:32688": 1792577446.9464679,
