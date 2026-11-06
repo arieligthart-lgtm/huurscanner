@@ -6,6 +6,7 @@
   "eengezinswoninggoudesteinlaan40": 1793265855.1154344,
   "eengezinswoningnachtvlinderplantsoen30": 1793265855.1154344,
   "godfriedbomansstraat1": 1793279985.0349696,
+  "herbertkawanstraat14": 1793967215.6004813,
   "hogeweide316": 1793115111.1585412,
   "jongeneelstraat64": 1792604810.5533447,
   "korenschoofstraat17": 1793720498.2171788,
@@ -28,11 +29,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 590,
-  "huurwoningen": 23,
+  "funda": 591,
+  "huurwoningen": 24,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 22,
+  "pararius": 23,
   "vesteda": 0
  },
  "last_run": {},
@@ -336,6 +337,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-84-tussenbusstraat-5d31fd92e3b534dcba76f3dadc2b5896/": 1793629706.0318463,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-88-tussenbusstraat-42fe3b12caf44a98e2eabfa92cd51726/": 1793892971.1062305,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-90-tussenbusstraat-c756ca3b0b0ad826320228ad0492bda7/": 1793889676.875438,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543bj-14-herbert-kawanstraat-1fd5ed2ba5739ad3a95de277789e82e9/": 1793967215.6004813,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543eg-39-lloyd-webberhof-703f09ef368b25848f13b221cebd862e/": 1793112477.7075558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-103-sonny-rollinsstraat-0afefd1ad6ae11dab283c59b3ed9408b/": 1793117970.7262707,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-135-sonny-rollinsstraat-7a7ded19463f31f0e1c677d16bbc2104/": 1793115111.1585412,
@@ -398,7 +400,8 @@
    "Kamernet:2415826": 1793629706.0318463,
    "Kamernet:2415848": 1793632929.0486403,
    "Kamernet:2416176": 1793781087.4516506,
-   "Kamernet:2416519": 1793875359.254381
+   "Kamernet:2416519": 1793875359.254381,
+   "Kamernet:2416785": 1793967215.6004813
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
