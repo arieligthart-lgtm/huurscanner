@@ -1,5 +1,6 @@
 {
  "addresses": {
+  "aartsbisschopromerostraat123": 1794258219.143799,
   "brusselplein107": 1792577446.9464679,
   "brusselplein97": 1793950819.6818037,
   "carelwillinkstraat94": 1793357483.5045967,
@@ -30,11 +31,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 697,
-  "huurwoningen": 65,
+  "funda": 698,
+  "huurwoningen": 66,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 74,
+  "pararius": 0,
   "vesteda": 0
  },
  "last_run": {},
@@ -447,6 +448,7 @@
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
+   "Pararius:0ef6b14f-b69e-5fa5-8f19-472ff39ba175": 1794258219.143799,
    "Pararius:1c09f2f1-103f-53b9-9c21-ccace15f86c0": 1792585807.5902617,
    "Pararius:20775469-cad8-5020-a4a5-9681dfb69168": 1793125350.239807,
    "Pararius:32674f65-30ca-52f3-af4a-2af84a533453": 1792585807.5902617,
