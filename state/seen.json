@@ -3,6 +3,7 @@
   "brusselplein107": 1792577446.9464679,
   "brusselplein97": 1793950819.6818037,
   "carelwillinkstraat94": 1793357483.5045967,
+  "centrumboulevard449": 1794217831.3030624,
   "eengezinswoninggoudesteinlaan40": 1793265855.1154344,
   "eengezinswoningnachtvlinderplantsoen30": 1793265855.1154344,
   "godfriedbomansstraat1": 1793279985.0349696,
@@ -29,11 +30,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 685,
-  "huurwoningen": 53,
+  "funda": 686,
+  "huurwoningen": 54,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 62,
+  "pararius": 63,
   "vesteda": 0
  },
  "last_run": {},
@@ -432,12 +433,14 @@
    "Kamernet:2415848": 1793632929.0486403,
    "Kamernet:2416176": 1793781087.4516506,
    "Kamernet:2416519": 1793875359.254381,
+   "Kamernet:2416772": 1794217831.3030624,
    "Kamernet:2416785": 1793967215.6004813,
    "Kamernet:2416898": 1794040861.5380697,
    "Kamernet:2416979": 1794040861.5380697,
    "Kamernet:2417089": 1794128270.962587,
    "Kamernet:2417146": 1794143469.2787127,
-   "Kamernet:2417200": 1794154613.278378
+   "Kamernet:2417200": 1794154613.278378,
+   "Kamernet:2417328": 1794217831.3030624
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
@@ -464,6 +467,7 @@
    "Vesteda:32651": 1792577446.9464679,
    "Vesteda:32665": 1792577446.9464679,
    "Vesteda:32688": 1792577446.9464679,
+   "Vesteda:32711": 1794217831.3030624,
    "Vesteda:7419": 1792577446.9464679,
    "Vesteda:7423": 1792577446.9464679,
    "Vesteda:7455": 1792577446.9464679,
