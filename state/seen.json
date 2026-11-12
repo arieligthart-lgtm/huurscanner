@@ -31,11 +31,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 770,
-  "huurwoningen": 3,
+  "funda": 771,
+  "huurwoningen": 4,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 3,
+  "pararius": 4,
   "vesteda": 0
  },
  "last_run": {},
@@ -522,6 +522,7 @@
    "Vesteda:10751": 1792577446.9464679,
    "Vesteda:32560": 1793954140.7205143,
    "Vesteda:32599": 1792577446.9464679,
+   "Vesteda:32602": 1794491268.1608608,
    "Vesteda:32620": 1794227382.2319086,
    "Vesteda:32625": 1793950819.6818037,
    "Vesteda:32651": 1792577446.9464679,
