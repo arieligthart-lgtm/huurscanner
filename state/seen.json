@@ -31,11 +31,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 774,
+  "funda": 775,
   "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 0,
+  "pararius": 1,
   "vesteda": 0
  },
  "last_run": {},
@@ -135,6 +135,7 @@
    "Huurwoningen.nl:2fe6cb37-fafa-535f-9369-1b365f9bb59d": 1793384214.6201203,
    "Huurwoningen.nl:301bd420-284d-54f0-ab64-27d8484f1ee2": 1793805836.8826895,
    "Huurwoningen.nl:3035a00b-ca08-54b2-a6e9-d52854010c12": 1793809064.57665,
+   "Huurwoningen.nl:30f36c4f-4f0d-5990-a887-080c027dc427": 1794504530.9134479,
    "Huurwoningen.nl:30ffb3ca-7921-5fbb-a1ee-8e1939641ba4": 1793044138.3339689,
    "Huurwoningen.nl:31091dd6-a4b3-532a-a253-b41b76137a0c": 1793629706.0318463,
    "Huurwoningen.nl:32692be3-0444-5662-a9fe-37e6a2263f21": 1794497688.6103709,
@@ -509,7 +510,8 @@
    "Kamernet:2417200": 1794154613.278378,
    "Kamernet:2417328": 1794217831.3030624,
    "Kamernet:2417499": 1794300013.7046494,
-   "Kamernet:2417881": 1794404743.3223317
+   "Kamernet:2417881": 1794404743.3223317,
+   "Kamernet:2418207": 1794504530.9134479
   },
   "pararius": {
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
