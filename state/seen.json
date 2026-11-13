@@ -1,6 +1,7 @@
 {
  "addresses": {
   "aartsbisschopromerostraat123": 1794258219.143799,
+  "amsterdamsestraatweg116": 1794601169.2352364,
   "brusselplein97": 1793950819.6818037,
   "cameraobscuradreef16": 1794480118.0352461,
   "carelwillinkstraat92": 1794480118.0352461,
@@ -31,11 +32,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 804,
-  "huurwoningen": 5,
+  "funda": 805,
+  "huurwoningen": 6,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 16,
+  "pararius": 0,
   "vesteda": 0
  },
  "last_run": {},
@@ -534,6 +535,8 @@
    "Pararius:52ac7a81-8129-5601-898c-d937d8dccdf3": 1792845556.914715,
    "Pararius:63017bdc-f8b1-5ee9-8f27-7dfc82a3f4f7": 1792585807.5902617,
    "Pararius:a3e3fb4c-ff54-52da-83d0-07e6b520c16b": 1793629706.0318463,
+   "Pararius:b1d25bad-ffbd-536d-a067-9c7733dd310a": 1794601169.2352364,
+   "Pararius:b7ce56f5-9cb9-5d24-9e22-28907e13a10b": 1794601169.2352364,
    "Pararius:be6de806-2a81-5565-bb33-cb10f4732698": 1792585807.5902617,
    "Pararius:c92447e5-6858-5405-bb16-0b809e4c920c": 1793286794.7943192,
    "Pararius:c993de17-297e-59d4-b81d-f88a74e979a5": 1792585807.5902617,
