@@ -30,11 +30,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 892,
+  "funda": 893,
   "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 0,
+  "pararius": 1,
   "vesteda": 0
  },
  "last_run": {},
@@ -84,6 +84,7 @@
    "Huurwoningen.nl:/huren/utrecht/65a1cf19/asselijnstraat/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/724b9582/zwaansteeg/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/77427968/papaverstraat/": 1794846454.2844598,
+   "Huurwoningen.nl:/huren/utrecht/7cefb26f/bakhuizen-van-den-brinkstraat/": 1794863408.4342773,
    "Huurwoningen.nl:/huren/utrecht/89575db2/minervaplein/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/8b5abcc0/bakhuizen-van-den-brinkstraat/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/8c74f2f7/moskeeplein/": 1794846454.2844598,
