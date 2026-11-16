@@ -30,11 +30,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 891,
+  "funda": 892,
   "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 12,
+  "pararius": 0,
   "vesteda": 0
  },
  "last_run": {},
@@ -570,6 +570,14 @@
    "Kamernet:2418980": 1794840667.909081
   },
   "pararius": {
+   "Pararius:/appartement-te-huur/utrecht/0edb54ed/zambesidreef": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/0ef6b14f/aartsbisschop-romerostraat": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/8404d598/oranjerivierdreef": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/a3e3fb4c/bernadottelaan": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/b1d25bad/amsterdamsestraatweg": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/b7ce56f5/livingstonelaan": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/be6de806/bernadottelaan": 1794860523.3592827,
+   "Pararius:/appartement-te-huur/utrecht/cf43173a/cab-rondom": 1794860523.3592827,
    "Pararius:0edb54ed-d60b-56d1-ab66-c714915b829f": 1792585807.5902617,
    "Pararius:0ef6b14f-b69e-5fa5-8f19-472ff39ba175": 1794258219.143799,
    "Pararius:1c09f2f1-103f-53b9-9c21-ccace15f86c0": 1792585807.5902617,
