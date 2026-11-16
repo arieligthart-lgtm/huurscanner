@@ -30,11 +30,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 890,
-  "huurwoningen": 2,
+  "funda": 891,
+  "huurwoningen": 0,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 11,
+  "pararius": 12,
   "vesteda": 0
  },
  "last_run": {},
@@ -87,6 +87,7 @@
    "Huurwoningen.nl:/huren/utrecht/89575db2/minervaplein/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/8b5abcc0/bakhuizen-van-den-brinkstraat/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/8c74f2f7/moskeeplein/": 1794846454.2844598,
+   "Huurwoningen.nl:/huren/utrecht/90f8715d/eendrachtlaan/": 1794857430.3689504,
    "Huurwoningen.nl:/huren/utrecht/991f516e/potterstraat/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/9e0999de/luzernevlinder/": 1794846454.2844598,
    "Huurwoningen.nl:/huren/utrecht/afcaa9e2/vleutenseweg/": 1794846454.2844598,
