@@ -31,11 +31,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 911,
-  "huurwoningen": 4,
+  "funda": 912,
+  "huurwoningen": 5,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 16,
+  "pararius": 17,
   "vesteda": 0
  },
  "last_run": {},
@@ -458,6 +458,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521da-17-rolderdiephof-3f825aff3425db3f753cd32fd2c52070/": 1793964308.3235457,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521da-6-rolderdiephof-6499f7919b4638b220a60040111a326d/": 1792656089.4062686,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521db-104-rolderdiephof-924585442f10becdb139afabdf49183f/": 1794312248.5648851,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521db-117-rolderdiephof-58bf161208574b3ea639132a9b488cd7/": 1794926188.4710243,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ds-453-twellosebeeklaan-a192bac606d77d1662993f3782b3033b/": 1793262810.7229016,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ds-527-twellosebeeklaan-f57bae80e1eaf2f66cfb6793584da7e6/": 1793351840.1402237,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521dv-112-twellosebeeklaan-d73948cb2a0e9591d7ad8a3f49099917/": 1793262810.7229016,
@@ -483,6 +484,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-84-tussenbusstraat-5d31fd92e3b534dcba76f3dadc2b5896/": 1793629706.0318463,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-88-tussenbusstraat-42fe3b12caf44a98e2eabfa92cd51726/": 1793892971.1062305,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3534bm-90-tussenbusstraat-c756ca3b0b0ad826320228ad0492bda7/": 1793889676.875438,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3541rk-21-komijnweg-3c7a57d301ed462e901f8f4279620617/": 1794926188.4710243,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543bj-14-herbert-kawanstraat-1fd5ed2ba5739ad3a95de277789e82e9/": 1793967215.6004813,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543eg-39-lloyd-webberhof-703f09ef368b25848f13b221cebd862e/": 1793112477.7075558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-103-sonny-rollinsstraat-0afefd1ad6ae11dab283c59b3ed9408b/": 1793117970.7262707,
@@ -490,6 +492,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ct-52-melissekade-b3ffa4a240f488faf3faf1dd8fa1bbed/": 1793961050.5628734,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544cx-263-melissekade-7f24ada4abf88e101c4c10ce400387d5/": 1794922691.611558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dd-14-bladvlinder-2ade23eed2d36b1551c7b88750b6096f/": 1793954140.7205143,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dl-13-wapendragervlinder-432c50b1aae98e01df87e2b5146919eb/": 1794926188.4710243,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dz-30-nachtvlinderplantsoen-1cb9cc76a00f3ac7c4840ae3854b37f6/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ht-1-godfried-bomansstraat-27644bd749cbe10b82b0e14082419ac9/": 1793279985.0349696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ma-92-carel-willinkstraat-f8b65b1f3c17ba3ca048e7809b1a6348/": 1794480118.0352461,
@@ -578,7 +581,8 @@
    "Kamernet:2418703": 1794749927.8503125,
    "Kamernet:2418976": 1794846454.2844598,
    "Kamernet:2418980": 1794840667.909081,
-   "Kamernet:2419209": 1794922691.611558
+   "Kamernet:2419209": 1794922691.611558,
+   "Kamernet:2419229": 1794926188.4710243
   },
   "pararius": {
    "Pararius:/appartement-te-huur/utrecht/0edb54ed/zambesidreef": 1794860523.3592827,
