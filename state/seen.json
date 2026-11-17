@@ -28,16 +28,17 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 917,
-  "huurwoningen": 10,
+  "funda": 918,
+  "huurwoningen": 11,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 2,
+  "pararius": 3,
   "vesteda": 0
  },
  "last_run": {},
  "seen": {
   "123wonen": {
+   "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/busken+huetstraat-1933-25": 1794946966.6906488,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/dollardstraat-1910-25": 1792577446.9464679,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/einsteindreef-1916-25": 1792577446.9464679,
    "123Wonen:https://www.123wonen.nl/huur/utrecht/appartement/einsteindreef-1926-25": 1793723452.739455,
