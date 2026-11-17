@@ -30,11 +30,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 909,
-  "huurwoningen": 2,
+  "funda": 910,
+  "huurwoningen": 3,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 14,
+  "pararius": 15,
   "vesteda": 0
  },
  "last_run": {},
@@ -443,6 +443,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3513dc-81-jongeneelstraat-ee0b55c73b2358259fa737af1838232e/": 1794303125.7051644,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3513de-159-korenschoofstraat-e3d6ce21cd14eab81fb1f8df974f4702/": 1793717890.8951883,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3513de-17-korenschoofstraat-f54cf5898686fbd71a2f4bc54979c316/": 1793720498.2171788,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3513dh-43-zijdebalenstraat-1abbb8485a6544a85a50d42a786f621d/": 1794918054.821032,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-11-m-van-sijpesteijnkade-30ae82d1b5175ef739a919ee0446b688/": 1793286794.7943192,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-17-d-van-sijpesteijnkade-46fd9d8c5982c884fd18fdcdc99ca789/": 1793286794.7943192,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-325-van-sijpesteijnkade-2cf74bea75bd8ab26fd62f3347240d74/": 1793871833.4246886,
