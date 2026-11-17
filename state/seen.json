@@ -17,6 +17,7 @@
   "korenschoofstraat17": 1793720498.2171788,
   "melissekade52": 1793961050.5628734,
   "nijenoord221": 1793279985.0349696,
+  "parijsboulevard80": 1794922691.611558,
   "rachmaninoffplantsoen130": 1793957407.7648532,
   "rachmaninoffplantsoen133": 1793794697.512149,
   "sonnyrollinsstraat103": 1793117970.7262707,
@@ -30,11 +31,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 910,
-  "huurwoningen": 3,
+  "funda": 911,
+  "huurwoningen": 4,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 15,
+  "pararius": 16,
   "vesteda": 0
  },
  "last_run": {},
@@ -446,6 +447,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3513dh-43-zijdebalenstraat-1abbb8485a6544a85a50d42a786f621d/": 1794918054.821032,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-11-m-van-sijpesteijnkade-30ae82d1b5175ef739a919ee0446b688/": 1793286794.7943192,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-17-d-van-sijpesteijnkade-46fd9d8c5982c884fd18fdcdc99ca789/": 1793286794.7943192,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-291-van-sijpesteijnkade-31a21d404c9d75bf257764a4c6b7901b/": 1794922691.611558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-325-van-sijpesteijnkade-2cf74bea75bd8ab26fd62f3347240d74/": 1793871833.4246886,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-413-van-sijpesteijnkade-a0c11a0da099c85461f02b5505e9e8f6/": 1794238540.964893,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3521ah-43-van-sijpesteijnkade-fcee777fcb4fee4d0032b5ae1ae5925b/": 1793034874.0493696,
@@ -486,6 +488,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-103-sonny-rollinsstraat-0afefd1ad6ae11dab283c59b3ed9408b/": 1793117970.7262707,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3543gr-135-sonny-rollinsstraat-7a7ded19463f31f0e1c677d16bbc2104/": 1793115111.1585412,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ct-52-melissekade-b3ffa4a240f488faf3faf1dd8fa1bbed/": 1793961050.5628734,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544cx-263-melissekade-7f24ada4abf88e101c4c10ce400387d5/": 1794922691.611558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dd-14-bladvlinder-2ade23eed2d36b1551c7b88750b6096f/": 1793954140.7205143,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544dz-30-nachtvlinderplantsoen-1cb9cc76a00f3ac7c4840ae3854b37f6/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ht-1-godfried-bomansstraat-27644bd749cbe10b82b0e14082419ac9/": 1793279985.0349696,
@@ -493,6 +496,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544ma-94-carel-willinkstraat-b3d0717a3e68bd93846f81dda2d0765d/": 1793357483.5045967,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-310-hogeweide-6fa5af39b0ad4aadac0f34745bc61a1c/": 1792653480.596242,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3544pw-316-hogeweide-3767d0d2c2f236b638d36041d716d4ce/": 1793115111.1585412,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-119-nijenoord-8a96377b42677b89230afb51eb27e678/": 1794922691.611558,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-221-nijenoord-67b361c316df51aa5373331f0fde69e9/": 1793279985.0349696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-23-nijenoord-19d8b0b38978b5e256ab0c2c21955d45/": 1794821604.789851,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-255-nijenoord-c393255b4acf609fdcb5ef9cf1e3055f/": 1793636656.008374,
@@ -573,7 +577,8 @@
    "Kamernet:2418677": 1794821604.789851,
    "Kamernet:2418703": 1794749927.8503125,
    "Kamernet:2418976": 1794846454.2844598,
-   "Kamernet:2418980": 1794840667.909081
+   "Kamernet:2418980": 1794840667.909081,
+   "Kamernet:2419209": 1794922691.611558
   },
   "pararius": {
    "Pararius:/appartement-te-huur/utrecht/0edb54ed/zambesidreef": 1794860523.3592827,
@@ -601,6 +606,7 @@
   },
   "vesteda": {
    "Vesteda:10494": 1793950819.6818037,
+   "Vesteda:10521": 1794922691.611558,
    "Vesteda:10582": 1792577446.9464679,
    "Vesteda:10590": 1793950819.6818037,
    "Vesteda:10628": 1792577446.9464679,
