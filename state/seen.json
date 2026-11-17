@@ -17,7 +17,6 @@
   "korenschoofstraat17": 1793720498.2171788,
   "melissekade52": 1793961050.5628734,
   "nijenoord221": 1793279985.0349696,
-  "oldenburgerstraat97": 1793097473.2819376,
   "rachmaninoffplantsoen130": 1793957407.7648532,
   "rachmaninoffplantsoen133": 1793794697.512149,
   "sonnyrollinsstraat103": 1793117970.7262707,
@@ -31,11 +30,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 907,
-  "huurwoningen": 0,
+  "funda": 908,
+  "huurwoningen": 1,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 12,
+  "pararius": 13,
   "vesteda": 0
  },
  "last_run": {},
