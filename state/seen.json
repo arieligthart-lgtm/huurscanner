@@ -5,7 +5,6 @@
   "brusselplein97": 1793950819.6818037,
   "cameraobscuradreef16": 1794480118.0352461,
   "carelwillinkstraat92": 1794480118.0352461,
-  "carelwillinkstraat94": 1793357483.5045967,
   "centrumboulevard449": 1794217831.3030624,
   "eykmanlaan223": 1794393628.6990488,
   "eykmanlaan325": 1794908730.7556381,
@@ -16,18 +15,17 @@
   "rachmaninoffplantsoen130": 1793957407.7648532,
   "rachmaninoffplantsoen133": 1793794697.512149,
   "shakespearehof24": 1795016156.9155433,
-  "taagdreef118h": 1793357483.5045967,
   "tgoylaan87b": 1794386707.3574247,
   "vaduzdijk87": 1793950819.6818037
  },
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 947,
-  "huurwoningen": 5,
+  "funda": 948,
+  "huurwoningen": 6,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 5,
+  "pararius": 6,
   "vesteda": 0
  },
  "last_run": {},
@@ -531,6 +529,7 @@
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-315-nijenoord-cebb37f9b13ed5b9fe7c7c0e475da989/": 1793034874.0493696,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-319-nijenoord-527cedcc2fab51c752d454da747bb8dd/": 1793283510.6798677,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552as-93-nijenoord-cf79576428e7f2ebb12e0be8c54de9c9/": 1793283510.6798677,
+   "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552tl-12-18-jagerskade-bbbbb1cfcceb780b72e977c015140b28/": 1795183102.6172006,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3552tl-8-11-jagerskade-874c56cc5cc9bb9aa4ede48e30ce08d2/": 1793265855.1154344,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3554bt-38-cornelis-roobolstraat-4b442abcbfaa8f5182f8de6c087c1a2b/": 1795016156.9155433,
    "ikwilhuren.nu (MVGM):https://ikwilhuren.nu/object/utrecht-3555xv-40-goudesteinlaan-e31244e15769e4394d930a08ed891eb0/": 1793265855.1154344,
@@ -610,7 +609,8 @@
    "Kamernet:2418980": 1794840667.909081,
    "Kamernet:2419209": 1794922691.611558,
    "Kamernet:2419229": 1794926188.4710243,
-   "Kamernet:2419294": 1794939754.3597982
+   "Kamernet:2419294": 1794939754.3597982,
+   "Kamernet:2419952": 1795183102.6172006
   },
   "pararius": {
    "Pararius:/appartement-te-huur/utrecht/0edb54ed/zambesidreef": 1794860523.3592827,
