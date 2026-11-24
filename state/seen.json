@@ -23,11 +23,11 @@
  "fails": {
   "123wonen": 0,
   "bouwinvest": 0,
-  "funda": 959,
-  "huurwoningen": 10,
+  "funda": 960,
+  "huurwoningen": 11,
   "ikwilhuren": 0,
   "kamernet": 0,
-  "pararius": 8,
+  "pararius": 9,
   "vesteda": 0
  },
  "last_run": {},
@@ -570,6 +570,8 @@
   "kamernet": {
    "Kamernet:1958769": 1793440630.4807453,
    "Kamernet:2336334": 1793367921.3855124,
+   "Kamernet:2377048": 1795479474.8927312,
+   "Kamernet:2398977": 1795479474.8927312,
    "Kamernet:2412656": 1792577446.9464679,
    "Kamernet:2412769": 1792577446.9464679,
    "Kamernet:2412942": 1792577446.9464679,
@@ -645,7 +647,8 @@
    "Kamernet:2420225": 1795369069.8171062,
    "Kamernet:2420310": 1795369069.8171062,
    "Kamernet:2420346": 1795369069.8171062,
-   "Kamernet:2420437": 1795437332.5405765
+   "Kamernet:2420437": 1795437332.5405765,
+   "Kamernet:2420608": 1795479474.8927312
   },
   "pararius": {
    "Pararius:/appartement-te-huur/utrecht/0edb54ed/zambesidreef": 1794860523.3592827,
